@@ -1,9 +1,12 @@
 @import "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
 .qWr9ba_header {
   z-index: 1;
   background-color: #ececec;
   justify-content: space-between;
-  padding: 1.2rem 1.5rem;
+  align-items: center;
+  height: 4.5rem;
+  padding: .5rem 1rem;
   display: flex;
   position: sticky;
   top: 0;
@@ -17,6 +20,7 @@
 .qWr9ba_darkModeDetails {
   align-items: center;
   gap: 4px;
+  margin-left: 2rem;
   display: flex;
 }
 
@@ -25,11 +29,13 @@
 }
 
 .qWr9ba_mode-text {
+  text-align: center;
   font-family: Montserrat, sans-serif;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .qWr9ba_heading {
+  text-align: left;
   font-weight: 400;
 }
 
@@ -162,7 +168,7 @@ body {
 }
 
 ._5Iep9q_main {
-  padding: .8rem 1rem;
+  padding: 0 1rem .8rem;
 }
 
 ._5Iep9q_dark {
@@ -225,17 +231,11 @@ body {
   z-index: 1;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 4px;
   margin-bottom: 16px;
   display: flex;
-  position: fixed;
+  position: sticky;
   top: 74px;
-}
-
-@media (width >= 800px) {
-  ._8CTAjq_search-dropdown {
-    top: 84px;
-  }
 }
 
 ._92HR6W_app {
