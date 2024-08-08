@@ -1,0 +1,19 @@
+.search-container input::placeholder {
+  color: #999;
+}
+.search-container input {
+  padding: 6px 12px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 4px;
+}
+
+.dark {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+.darked {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}

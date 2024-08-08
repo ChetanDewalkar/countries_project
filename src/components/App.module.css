@@ -1,0 +1,12 @@
+.app {
+  background-color: #ececec;
+  color: rgb(41, 41, 41);
+}
+.dark {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+.darked {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}

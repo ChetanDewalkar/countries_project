@@ -1,0 +1,11 @@
+.main {
+  padding: 0.8rem 1rem;
+}
+.dark {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+.darked {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}

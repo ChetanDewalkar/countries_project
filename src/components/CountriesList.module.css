@@ -1,0 +1,10 @@
+.countriesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.countriesList a {
+  text-decoration: none;
+  color: inherit;
+}

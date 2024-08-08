@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #dfdfdf;
+}
+
+.searchAndDropdown {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  position: sticky;
+  top: 78px;
+  z-index: 1;
+}
+
+/* ========(dark mode)======== */
+/* .dark {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+.darked {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+} */
+
+/* media queries */
+
+/* @media (max-width: 840px) {
+  .countryCard {
+    width: 300px;
+  }
+} */
+/* @media (max-width: 725px) {
+  .countryCard {
+    width: 275px;
+  } */
+/* .single-country {
+    display: flex;
+    justify-content: center;
+  }
+  .single-country img {
+    width: 100%;
+    height: auto;
+  }
+  .single-country-wrapper-inner {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-inline: 1rem;
+    gap: 1rem;
+  } */
+/* .info-container {
+    padding: 1rem 1.5rem;
+  } */
+/* } 
+@media (max-width: 675px) {
+  .countryCard {
+    width: 220px;
+  }
+}
+@media (max-width: 565px) {
+  .countryCard {
+    min-width: 300px;
+  }
+}
+/* @media (max-width: 430px) {
+  .searchAndDropdown {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .searchInput {
+    margin-bottom: 0.6rem;
+  }
+  .header h1 {
+    font-size: 26px;
+  }
+  .countryInfo h2 {
+    font-size: 18px;
+  }
+  .header {
+    align-items: center;
+  }
+  .darkModeDetails .modeText {
+    font-size: 0.8rem;
+    justify-items: center;
+  }
+} */

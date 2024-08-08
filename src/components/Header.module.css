@@ -1,0 +1,51 @@
+.header {
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #ececec;
+}
+.header p {
+  font-weight: 400;
+}
+.darkModeDetails {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.modeIcon {
+  cursor: pointer;
+}
+.mode-text {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+.heading {
+  font-weight: 400;
+}
+
+/* ?=======dark mode=========== */
+
+.dark {
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+.darked {
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}
+
+/* ?==========media queries=========== */
+
+@media (min-width: 800px) {
+  .mode-text {
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+  }
+}
